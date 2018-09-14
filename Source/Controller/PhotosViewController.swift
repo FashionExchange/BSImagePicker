@@ -119,8 +119,14 @@ final class PhotosViewController : UICollectionViewController {
         navigationItem.leftBarButtonItem = cancelBarButton
         navigationItem.rightBarButtonItem = doneBarButton
         navigationItem.titleView = albumTitleView
-
-        if let album = albumsDataSource.fetchResults.first?.firstObject {
+        let albums = albumsDataSource.fetchResults
+        var lastSelectedAlbum: PHAssetCollection?
+        if let lastAlbumIdentifier = UserDefaults.standard.string(forKey: "lastSelectedAlbum") {
+           lastSelectedAlbum = albums.first(where: {$0.firstObject?.localIdentifier == lastAlbumIdentifier})?.firstObject
+        }
+        
+        
+        if let album = lastSelectedAlbum != nil ? lastSelectedAlbum : albumsDataSource.fetchResults.first?.firstObject {
             initializePhotosDataSource(album, selections: defaultSelections)
             updateAlbumTitle(album)
             collectionView?.reloadData()
@@ -393,10 +399,12 @@ extension PhotosViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         // Update photos data source
         let album = albumsDataSource.fetchResults[indexPath.section][indexPath.row]
+        print(">>>>> AlbumID: \(album.localIdentifier)")
+        UserDefaults.standard.set(album.localIdentifier, forKey: "lastSelectedAlbum")
+        print(">>>>> saved AlbumID: \(UserDefaults.standard.string(forKey: "lastSelectedAlbum"))")
         initializePhotosDataSource(album)
         updateAlbumTitle(album)
         collectionView?.reloadData()
-        
         // Dismiss album selection
         albumsViewController.dismiss(animated: true, completion: nil)
     }
