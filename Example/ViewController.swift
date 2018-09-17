@@ -78,6 +78,11 @@ class ViewController: UIViewController {
                 print("Cancel: \(assets)")
             }, finish: { (assets: [PHAsset]) -> Void in
                 print("Finish: \(assets)")
+                assets.forEach({ asset in
+                    asset.getImage(callback: { image in
+                        
+                    })
+                })
             }, completion: nil)
     }
   

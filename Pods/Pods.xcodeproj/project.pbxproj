@@ -7,56 +7,57 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		02D34489413714E20B4ED48EB1417790 /* UIViewController+BSImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC584FEAD3FB16A641D0DC0FE75945BA /* UIViewController+BSImagePicker.swift */; };
-		0D6A6675CBA865F1F54D9BD3B881EC5A /* AlbumTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE6689C5BA1DBBC61BB849C7B506FED /* AlbumTitleView.swift */; };
-		0D7883CD58E3E812ED2E28EF46886FEC /* CameraCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FB04EB5A35E4D1633329B543F58F67 /* CameraCell.swift */; };
-		25BB76E5FD3C90FFA35C605D6656EDAD /* BSImageView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CD449F4480BA26AB72C889999AD55AD7 /* BSImageView-dummy.m */; };
+		0BA8673EED17D65B47B776C91D403FA3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3569C82DEE8641DAE8FBE6F914CB651 /* UIKit.framework */; };
+		11E2C76077C09AAD841CDCA899D8B43D /* BSImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08772236F4D5D024F639B71766761BF9 /* BSImageView.swift */; };
+		1C2CE05B5B0F7A4F38C2FF43DC7340EC /* CameraCollectionViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B436065B5EBBD0D6699B3CED49BE1F0 /* CameraCollectionViewDataSource.swift */; };
+		22E7628324078A1A84FABA137E2351BA /* arrow_down@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B76636A6055E7FDDC7AC552A128E51CE /* arrow_down@2x.png */; };
 		291AFED61B0AE909DCD6E24769CBD5E0 /* Pods-Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1280A3A8AFC9C59462B9C18D8ACC1F1B /* Pods-Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		29D85FC1A9901B7858D02D306C0111FF /* Pods-Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E50F1EB96C18AFC549A7567079429D6 /* Pods-Example-dummy.m */; };
+		2C1ACB94D83757149FBD68A7785583F8 /* SelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E0B9280A734FB969B5A4AE5D00EDED4 /* SelectionView.swift */; };
 		2CF0339A031AA7C0CE2BBA933287C639 /* Pods-Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9224410074B6B90A79FC6365E88D3C75 /* Pods-Tests-dummy.m */; };
-		3EF4ACED6FC851E868FD5646E6D2C6A1 /* CameraCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74B961E0A85D5C6916BA0ED8CA17D760 /* CameraCell.xib */; };
+		3DBCD8D3DC714AD03B87DFE44A6998C6 /* BSImagePicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C0E983F1297F4E66EA2723CCB03B2A1 /* BSImagePicker-dummy.m */; };
+		43CF2034EAC91D91E57030CEA3A42F65 /* PHAsset+Export.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8DDD3537F936F215AC10CDCC29F2FC0 /* PHAsset+Export.swift */; };
 		43EEFE9DA44AFD4855BC4FC20B076DA5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8CE1EF6E82C7D04390C68A0CD7F6101 /* Foundation.framework */; };
-		44984A650AA724E57ED28AE91AD50750 /* add_photo.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C7622BC4427B3DCD1F0447DD8919B8F /* add_photo.png */; };
-		45C5C1F2FEF53540EADB33C73B91B949 /* BSImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08772236F4D5D024F639B71766761BF9 /* BSImageView.swift */; };
-		461A67F7FA391093FCC6D89D39728AD0 /* BSImageView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC98D59EABBF589501DE3988AD017CD3 /* BSImageView.framework */; };
-		4A59C0299C673DEE3A38FC83EEE6C61A /* PhotoCollectionViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = B454FCB81D894A01C667E370E5A17434 /* PhotoCollectionViewDataSource.swift */; };
+		44796ABB0A8001443E8E78AB00300146 /* AlbumsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D947B942FC01E92A122AD1966D5A40E /* AlbumsViewController.swift */; };
+		44CBFA90BAE269E9378F26108C009341 /* arrow_down@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EFA7F8FAE08B9F7EC415B562F47A4ABF /* arrow_down@3x.png */; };
+		48B7C0EB150FF901321862AD93BC8B38 /* BSImagePickerSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C948948458A3C5817F06C8494CB6B69 /* BSImagePickerSettings.swift */; };
 		568F318E2CE8090A1D135CB8A4641843 /* Pods-Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F8D1E1F9D6C30F9C9274611FB612004 /* Pods-Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		57457355F6C41C74EA2BDA5715F19D17 /* NSIndexSet+NSIndexPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C4E609592DFFB3D3C81147E283A3EE /* NSIndexSet+NSIndexPath.swift */; };
-		60042FB405E7489CF39881BC975669B6 /* arrow_down@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7160DAD63FC8AE808505D2BB536201E4 /* arrow_down@2x.png */; };
-		667F947403ECF36F6C858DA1C6F294B4 /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7449221F5998F0E5F225D1DA21F9DAAD /* PhotoCell.swift */; };
+		5B57B79ABA62607AEF81CBAD6F258AC4 /* ComposedCollectionViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5383D110F945795883F242D2C1C2CC /* ComposedCollectionViewDataSource.swift */; };
+		62781BDD083EFB6103B33E07E8FF603E /* add_photo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A51F194623593803018633D25D64C90 /* add_photo@2x.png */; };
+		63DC36E414CBB4E574BE99B241266FD9 /* add_photo@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 556D1FE7BD40F7F808BC9217B48DB9DA /* add_photo@3x.png */; };
+		665EC8662C4B194A73D9AA86AA52DE12 /* AlbumTableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421765324577A2AC629F394EADDA5C54 /* AlbumTableViewDataSource.swift */; };
 		66F6B31C7AF755166279B9A066B3F3DC /* BSGridCollectionViewLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BBE690EC035237F7A26D285EEB00ACC3 /* BSGridCollectionViewLayout-dummy.m */; };
-		6C29F312E503BD2AF65A5DB8F8847315 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3569C82DEE8641DAE8FBE6F914CB651 /* UIKit.framework */; };
+		6D227DBD4B59F108128A8B2A67C4995C /* UIViewController+BSImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05B04A67186ABC5CFE6227BEAA76F09C /* UIViewController+BSImagePicker.swift */; };
 		6F10C80A85D968EC5B4BB3BDF3087E17 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8CE1EF6E82C7D04390C68A0CD7F6101 /* Foundation.framework */; };
-		752BAFC8A6654465F24D3BFAAB78B15E /* SelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6489896E3BDE6E2EF2360DCAEB907A5 /* SelectionView.swift */; };
-		78C9257D7B2612A34D4BD908C5142995 /* CameraCollectionViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4DC4394901C96E06D8CB26981A4F52E /* CameraCollectionViewDataSource.swift */; };
-		7EB9090DEBAFC132CC1F4F3AF24D6C87 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373E85E2B3D5C6563C69D25C156A5A04 /* Settings.swift */; };
-		8335866CB0C6ACFF57F9FD29F17DC513 /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A2B77EA5CBA9ED59702CFF4B4DD1F4B /* PhotosViewController.swift */; };
-		99A1F0410BF4C12DCD5731C783FF5605 /* BSImagePickerSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F11A9EF33555997FCE41DF2C43D061D /* BSImagePickerSettings.swift */; };
-		9C652E0D5FC9ED6E903E2869FB2E4BA4 /* Persistor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F845073EE839B263FC7CBA34B19446A /* Persistor.swift */; };
-		9EB6152AC81E31A83B694304EBAA5963 /* arrow_down@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A70673EEAF63995FBACF415ACC26807A /* arrow_down@3x.png */; };
-		A758B9A2BF6D0E4926BBC118C8155B8D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8CE1EF6E82C7D04390C68A0CD7F6101 /* Foundation.framework */; };
-		A96C9380A5FB7D7518A2FB0A5C543C03 /* AlbumTableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2F16B23E60E231D0FED730882E2A8E /* AlbumTableViewDataSource.swift */; };
-		B385F6BC5D8A4E78CEF54057399B0286 /* AlbumsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11477170B458C7688815CBE4D14741A0 /* AlbumsViewController.swift */; };
-		B3F85CFF86DB9314A409E2075FB17210 /* BSImagePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA803B9A4FB2103539D80EB253BB78D1 /* BSImagePickerViewController.swift */; };
-		BD37CA47A9490F3AA652BC4F3E3D89BD /* Albums.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 469CB4CAA218BA86B934260E5246BD25 /* Albums.storyboard */; };
-		BD5C263C8973216C2F94F46E0D8C5CD1 /* BSImagePicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F0025F3E75527CFB77B0E5CEEA038522 /* BSImagePicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C4E0A4B48097BA8154040FAF287499C2 /* ComposedCollectionViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289CEF49F96BCFD363D13B94B75CFCF7 /* ComposedCollectionViewDataSource.swift */; };
-		CC5B0CDDF0E38F612C727D00EBE3090D /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EB8A43476EF999DEDBCD03BBFFB2D1C /* Photos.framework */; };
-		CD13111F81801015E5B8D49D1A9B7087 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8CE1EF6E82C7D04390C68A0CD7F6101 /* Foundation.framework */; };
-		CE9C4CC2D05315794CBCF03107898F8F /* BSImageView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D56857C07730DA1C4B4BF3F7E4222AC /* BSImageView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7721ACF206F58874312EA9DC85FFF86E /* ZoomAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB83B83E3DF33AD525253CDA947107A2 /* ZoomAnimator.swift */; };
+		7C4EB6E796089D0C3DE2340CD3564763 /* arrow_down@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 529F7DA7223D4C7BF0E3FE9F91EC7F1D /* arrow_down@1x.png */; };
+		7C685171D28F58F1EABD19A725C05DA3 /* BSGridCollectionViewLayout.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 381266AED195453674EFFE93C6D17C49 /* BSGridCollectionViewLayout.framework */; };
+		7D89BD0B57EED7C149CE11FDFCD4C962 /* CameraCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F923680751BB00FC9424FB72E34EA96C /* CameraCell.swift */; };
+		87CE744A21B2822C53228A35B1C626C5 /* ImageViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665A967C79027F8DC4A70B899367E072 /* ImageViewLayout.swift */; };
+		8A3F2889EC500ACFC186770CEC308BFC /* BSImagePicker.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9EDF2BAEAA6D114412B8425FA7CA2D93 /* BSImagePicker.bundle */; };
+		8DF4353BC1CBA6295B4EBA8E64379452 /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EB8A43476EF999DEDBCD03BBFFB2D1C /* Photos.framework */; };
+		8F63F6925047522D7BC817B9965DA9C3 /* BSImageView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D56857C07730DA1C4B4BF3F7E4222AC /* BSImageView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9DF9DCB043BEED54BC1F6244B622E512 /* NSIndexSet+NSIndexPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = E89075F9485EF664A630B7997F3AF86C /* NSIndexSet+NSIndexPath.swift */; };
+		9E690F5C080DDE9B868C167C4ACBF46B /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53861F541A7787F9E9B4FCF8CC71003 /* PhotoCell.swift */; };
+		A0E711410C031BCD567D79EF50C3C6CB /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B11B7EBC2F65ECF08E658EBE002B55 /* PhotosViewController.swift */; };
+		A30A7F1C78FBB3A26C0EEE064092B139 /* AlbumCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D526DA8340701010F97FF36CBEA4BD0 /* AlbumCell.swift */; };
+		A6FAB279EBC1444BB2A0ADC4B9AA47E2 /* Albums.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2560D7812D1AE930E738A222C1DFFF10 /* Albums.storyboard */; };
+		A7E025389104B54CC9BDA31518DE73C2 /* CameraCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D30CB1A8D167B920D3751C34E255B474 /* CameraCell.xib */; };
+		A89A488E96ACDB807C35B7C2C68EFC27 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8CE1EF6E82C7D04390C68A0CD7F6101 /* Foundation.framework */; };
+		A9C4A9A3EB88A4178FDA1B684622E589 /* add_photo.png in Resources */ = {isa = PBXBuildFile; fileRef = 690A60571B9CD953DF9E9F289F55F4E7 /* add_photo.png */; };
+		B11B829EBD31323124FBB3F25F4BD544 /* BSImageView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CD449F4480BA26AB72C889999AD55AD7 /* BSImageView-dummy.m */; };
+		B88BED718CDBE6DD3357A50A6F531C05 /* PhotoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE13A1443B1EA0E3A4BDF512C51CA5C9 /* PhotoCell.xib */; };
+		C18A86121E6729225715AD38F67C7AA0 /* BSImageView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC98D59EABBF589501DE3988AD017CD3 /* BSImageView.framework */; };
+		C690004FA80DE36397A36165A154B0D9 /* PreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C02B1F3A1AA176A1211C69710AB53E /* PreviewViewController.swift */; };
+		CA90E76D65FFE32E35BB2C8BF685D881 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D871AAFD0326B986216C458C769933 /* Settings.swift */; };
 		CEF7A97F12A93F22CF4627567A1276B6 /* GridCollectionViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8DB07133557224B7A03EA8F937C252D /* GridCollectionViewLayout.swift */; };
-		CF161CA0C1E124D549F5E58E1CAA1A50 /* BSImagePicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EE58419D638DFCDA5A36D7D6E34CE893 /* BSImagePicker-dummy.m */; };
-		D3D9EA752F34FFB01E64DADD7A8765FC /* add_photo@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 89B8646FEFFF6FD50EAFBC03E87B98DA /* add_photo@3x.png */; };
-		D72C257EE8A5102AB743B58F382611F3 /* PreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2860DEB90F4FA009F720C434A987EC9 /* PreviewViewController.swift */; };
-		DB0246650105DF2EE3E31D60DF717039 /* BSImagePicker.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9EDF2BAEAA6D114412B8425FA7CA2D93 /* BSImagePicker.bundle */; };
-		DE289D74764230C84FB78D8FFC2A83B0 /* AlbumCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1F2D18D825557FAC4AB4FE5D064A5A /* AlbumCell.swift */; };
-		E2BC9B745C9BD39C4CEC19CC8F7C3CEA /* ImageViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665A967C79027F8DC4A70B899367E072 /* ImageViewLayout.swift */; };
-		E47DCD68F524CA5D6EF6D6E47DDC124F /* BSGridCollectionViewLayout.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 381266AED195453674EFFE93C6D17C49 /* BSGridCollectionViewLayout.framework */; };
-		E857C2C987CFBA8CA669D357E420A55E /* PhotoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7830A0F934F7EA7011BBF952EDAC56CF /* PhotoCell.xib */; };
-		E8C540D970803D1E7EE8F4BE8D46C160 /* arrow_down@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 60979EF4409F45D853FF203FB190F060 /* arrow_down@1x.png */; };
-		EAB8636F263C3ADA881D3D04D0C27E37 /* ZoomAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9495D3A7E4BCA6E1B4E7698F4EB2DBDC /* ZoomAnimator.swift */; };
-		EC21F55D0C72BB0199751AE7F5EF8621 /* add_photo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B61CB22FA51C5CB410C8B8C295BAD85 /* add_photo@2x.png */; };
+		CFDB841026F46D1C0D07F936EB15DB9A /* BSImagePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63334C36DAB94FF15DEF3F1AD00AD57C /* BSImagePickerViewController.swift */; };
+		DB24FAC30FC8328FC8A893B86021D629 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8CE1EF6E82C7D04390C68A0CD7F6101 /* Foundation.framework */; };
+		E3FA8B0B85E2E7205FC8EBA6E268039E /* BSImagePicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 99B7F8474CAC536246A41CE342CCFE9D /* BSImagePicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E97D0B0E0ECDAA33D767CF96DFF898AA /* PhotoCollectionViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30EA46B775C39848616E203499BA6C36 /* PhotoCollectionViewDataSource.swift */; };
 		EC46EF6A88B0B7CF0C593B1C9A933765 /* BSGridCollectionViewLayout-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AF1B5F3B68D3396B21698263A37A9F7 /* BSGridCollectionViewLayout-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF79C87640B39BEF7339AE5827EE0287 /* AlbumTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57297C979877CABF896049E9046F4B68 /* AlbumTitleView.swift */; };
+		F1E308CB5CC925EA90068EC6AED02C9E /* Persistor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6100D84E963F56F84E2114FA4EF831 /* Persistor.swift */; };
 		F64DBC6F566F3D32D3F3B681A23CA831 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8CE1EF6E82C7D04390C68A0CD7F6101 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -65,36 +66,22 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 19DD550805381A42A08D6478BEDCEF01;
+			remoteGlobalIDString = 1026D4B2B71009BCBD75B01E90A5008A;
 			remoteInfo = BSImageView;
 		};
 		255F96D8A64CEB68B69BF170750339C4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 05AC1B8DA9FAF9373DEC8F8D0B64ADCE;
+			remoteGlobalIDString = 1E882644296092993DB1ACEFAF9302EE;
 			remoteInfo = BSImagePicker;
-		};
-		2AB68B173E72DB353068C6FA0F5061F6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 19DD550805381A42A08D6478BEDCEF01;
-			remoteInfo = BSImageView;
 		};
 		341177066EB969B6FE9BD7BC0AFCAE29 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 19DD550805381A42A08D6478BEDCEF01;
+			remoteGlobalIDString = 1026D4B2B71009BCBD75B01E90A5008A;
 			remoteInfo = BSImageView;
-		};
-		5BFC8A05F80E84CA407CD0C8B97851AF /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 1992CA0FBAC08EF5934D3B34B15CFE6D;
-			remoteInfo = "BSImagePicker-BSImagePicker";
 		};
 		6E6F28911F4C824BDF3C40B2711B3615 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -107,10 +94,24 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 05AC1B8DA9FAF9373DEC8F8D0B64ADCE;
+			remoteGlobalIDString = 1E882644296092993DB1ACEFAF9302EE;
 			remoteInfo = BSImagePicker;
 		};
-		7DDC68F902499878598B0DBFB289AD1F /* PBXContainerItemProxy */ = {
+		991673ECF29D37A0914399BF1F50572B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E99F27A7B6D3B3FBF7333F4549FF24BE;
+			remoteInfo = "BSImagePicker-BSImagePicker";
+		};
+		A7C7BE79D09C59BD04B9073C1DB036CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1026D4B2B71009BCBD75B01E90A5008A;
+			remoteInfo = BSImageView;
+		};
+		D99AA32AE899E1ACD943ACFEC11E47E5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
@@ -127,99 +128,99 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		03BEE62B89F91659E34FA56FBF443204 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		05B04A67186ABC5CFE6227BEAA76F09C /* UIViewController+BSImagePicker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIViewController+BSImagePicker.swift"; sourceTree = "<group>"; };
 		0633BED19BA93788CCC96DBEE9F37E84 /* BSImageView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BSImageView-prefix.pch"; sourceTree = "<group>"; };
-		071EA6DC98E1C9B391B1EB16F5E8CE14 /* BSImagePicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BSImagePicker.modulemap; sourceTree = "<group>"; };
 		08772236F4D5D024F639B71766761BF9 /* BSImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BSImageView.swift; path = Source/BSImageView.swift; sourceTree = "<group>"; };
-		0B61CB22FA51C5CB410C8B8C295BAD85 /* add_photo@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "add_photo@2x.png"; path = "Assets/add_photo@2x.png"; sourceTree = "<group>"; };
+		0C948948458A3C5817F06C8494CB6B69 /* BSImagePickerSettings.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BSImagePickerSettings.swift; sourceTree = "<group>"; };
 		0EB8A43476EF999DEDBCD03BBFFB2D1C /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Photos.framework; sourceTree = DEVELOPER_DIR; };
-		11477170B458C7688815CBE4D14741A0 /* AlbumsViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AlbumsViewController.swift; sourceTree = "<group>"; };
 		1280A3A8AFC9C59462B9C18D8ACC1F1B /* Pods-Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Example-umbrella.h"; sourceTree = "<group>"; };
-		1695E33EDA4FD24C30CBFFC143760BA1 /* ResourceBundle-BSImagePicker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-BSImagePicker-Info.plist"; sourceTree = "<group>"; };
-		2388E59F1F05E7AB19EEAF2359C8E5F3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		1E0B9280A734FB969B5A4AE5D00EDED4 /* SelectionView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SelectionView.swift; sourceTree = "<group>"; };
+		2560D7812D1AE930E738A222C1DFFF10 /* Albums.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; name = Albums.storyboard; path = Assets/Albums.storyboard; sourceTree = "<group>"; };
 		28270C62023AEAD76D54E78772DAD3D4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		289CEF49F96BCFD363D13B94B75CFCF7 /* ComposedCollectionViewDataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ComposedCollectionViewDataSource.swift; sourceTree = "<group>"; };
-		2AE6689C5BA1DBBC61BB849C7B506FED /* AlbumTitleView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AlbumTitleView.swift; sourceTree = "<group>"; };
-		2E1F2D18D825557FAC4AB4FE5D064A5A /* AlbumCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AlbumCell.swift; sourceTree = "<group>"; };
-		2E2F16B23E60E231D0FED730882E2A8E /* AlbumTableViewDataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AlbumTableViewDataSource.swift; sourceTree = "<group>"; };
 		2E50F1EB96C18AFC549A7567079429D6 /* Pods-Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Example-dummy.m"; sourceTree = "<group>"; };
 		2F5827015FB8CEAAE208174C5355A825 /* Pods-Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests.release.xcconfig"; sourceTree = "<group>"; };
+		30EA46B775C39848616E203499BA6C36 /* PhotoCollectionViewDataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewDataSource.swift; sourceTree = "<group>"; };
 		34D4A050E8749789A4A46BCF293C5321 /* Pods-Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		373E85E2B3D5C6563C69D25C156A5A04 /* Settings.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 		37965690C53643E39C6B092B31939C38 /* Pods-Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Tests-frameworks.sh"; sourceTree = "<group>"; };
 		381266AED195453674EFFE93C6D17C49 /* BSGridCollectionViewLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BSGridCollectionViewLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B5383D110F945795883F242D2C1C2CC /* ComposedCollectionViewDataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ComposedCollectionViewDataSource.swift; sourceTree = "<group>"; };
+		3C0E983F1297F4E66EA2723CCB03B2A1 /* BSImagePicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BSImagePicker-dummy.m"; sourceTree = "<group>"; };
 		3D56857C07730DA1C4B4BF3F7E4222AC /* BSImageView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BSImageView-umbrella.h"; sourceTree = "<group>"; };
+		421765324577A2AC629F394EADDA5C54 /* AlbumTableViewDataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AlbumTableViewDataSource.swift; sourceTree = "<group>"; };
 		445D2C21D098F2DC70B4A54AF71803CD /* BSImageView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BSImageView.xcconfig; sourceTree = "<group>"; };
-		469CB4CAA218BA86B934260E5246BD25 /* Albums.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; name = Albums.storyboard; path = Assets/Albums.storyboard; sourceTree = "<group>"; };
-		4A2B77EA5CBA9ED59702CFF4B4DD1F4B /* PhotosViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
 		4AEF0D2856EDD9863B044EF1E8F0E9CA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4E98AA5CAA6B8AED639C7E8262F7FA03 /* BSImagePicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BSImagePicker.xcconfig; sourceTree = "<group>"; };
+		529F7DA7223D4C7BF0E3FE9F91EC7F1D /* arrow_down@1x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "arrow_down@1x.png"; path = "Assets/arrow_down@1x.png"; sourceTree = "<group>"; };
+		53096E4BC6B8D831C2F8CAECCD123049 /* BSImagePicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BSImagePicker.modulemap; sourceTree = "<group>"; };
 		539917D4064CE0548CF614622B7B47E1 /* Pods_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Example.framework; path = "Pods-Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		556D1FE7BD40F7F808BC9217B48DB9DA /* add_photo@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "add_photo@3x.png"; path = "Assets/add_photo@3x.png"; sourceTree = "<group>"; };
+		57297C979877CABF896049E9046F4B68 /* AlbumTitleView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AlbumTitleView.swift; sourceTree = "<group>"; };
+		57B11B7EBC2F65ECF08E658EBE002B55 /* PhotosViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
+		5A51F194623593803018633D25D64C90 /* add_photo@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "add_photo@2x.png"; path = "Assets/add_photo@2x.png"; sourceTree = "<group>"; };
 		5B1E1C9222F9D48664CAC0218786C2A8 /* Pods-Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5CDBBCFF6A30F03E992C9FC3195284BE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5E42325FB5FD1CB5F2DBF892B8D9DF82 /* Pods-Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Tests-resources.sh"; sourceTree = "<group>"; };
-		5F11A9EF33555997FCE41DF2C43D061D /* BSImagePickerSettings.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BSImagePickerSettings.swift; sourceTree = "<group>"; };
-		60979EF4409F45D853FF203FB190F060 /* arrow_down@1x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "arrow_down@1x.png"; path = "Assets/arrow_down@1x.png"; sourceTree = "<group>"; };
 		61E0CC29FF54C1B03B80DC8017E18E91 /* BSImagePicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BSImagePicker.framework; path = BSImagePicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		63334C36DAB94FF15DEF3F1AD00AD57C /* BSImagePickerViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BSImagePickerViewController.swift; sourceTree = "<group>"; };
 		665A967C79027F8DC4A70B899367E072 /* ImageViewLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageViewLayout.swift; path = Source/ImageViewLayout.swift; sourceTree = "<group>"; };
 		6699B9630600F2C9649D525EF1855F18 /* Pods-Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		678388FA7FF2805D4D6F28AA1E7AA911 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		690A60571B9CD953DF9E9F289F55F4E7 /* add_photo.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = add_photo.png; path = Assets/add_photo.png; sourceTree = "<group>"; };
 		69F7D4FC929C9849185DC95870A55E86 /* Pods-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example.release.xcconfig"; sourceTree = "<group>"; };
+		6B436065B5EBBD0D6699B3CED49BE1F0 /* CameraCollectionViewDataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CameraCollectionViewDataSource.swift; sourceTree = "<group>"; };
 		6E63C39658C9189D98B446C81ADED943 /* Pods-Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		7160DAD63FC8AE808505D2BB536201E4 /* arrow_down@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "arrow_down@2x.png"; path = "Assets/arrow_down@2x.png"; sourceTree = "<group>"; };
-		7449221F5998F0E5F225D1DA21F9DAAD /* PhotoCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
-		74B961E0A85D5C6916BA0ED8CA17D760 /* CameraCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = CameraCell.xib; path = Assets/CameraCell.xib; sourceTree = "<group>"; };
-		7830A0F934F7EA7011BBF952EDAC56CF /* PhotoCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = PhotoCell.xib; path = Assets/PhotoCell.xib; sourceTree = "<group>"; };
+		6F6D7CC359AEB2CF21162B86B05FC104 /* BSImagePicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BSImagePicker.xcconfig; sourceTree = "<group>"; };
 		78CF28D2DFCBD94D6A1B5CC14A1DC29A /* BSImageView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BSImageView.framework; path = BSImageView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7C7622BC4427B3DCD1F0447DD8919B8F /* add_photo.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = add_photo.png; path = Assets/add_photo.png; sourceTree = "<group>"; };
-		7F845073EE839B263FC7CBA34B19446A /* Persistor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Persistor.swift; sourceTree = "<group>"; };
 		7FD34F7BE4D073E8C0F7B5C6C4CE062A /* BSGridCollectionViewLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BSGridCollectionViewLayout-prefix.pch"; sourceTree = "<group>"; };
-		89B8646FEFFF6FD50EAFBC03E87B98DA /* add_photo@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "add_photo@3x.png"; path = "Assets/add_photo@3x.png"; sourceTree = "<group>"; };
+		89C02B1F3A1AA176A1211C69710AB53E /* PreviewViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PreviewViewController.swift; sourceTree = "<group>"; };
+		8C029AA225623FE6E7E0B36B968D091F /* BSImagePicker.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = BSImagePicker.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		8C99691FB15F3C5AA097B7FF2A075D39 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8CAFA8E74D12C7DEFDC1A8A708D39462 /* BSGridCollectionViewLayout.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BSGridCollectionViewLayout.xcconfig; sourceTree = "<group>"; };
+		8D526DA8340701010F97FF36CBEA4BD0 /* AlbumCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AlbumCell.swift; sourceTree = "<group>"; };
+		8D947B942FC01E92A122AD1966D5A40E /* AlbumsViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AlbumsViewController.swift; sourceTree = "<group>"; };
 		9224410074B6B90A79FC6365E88D3C75 /* Pods-Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Tests-dummy.m"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		93CF439A0C77F741A904E962D966280D /* BSGridCollectionViewLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BSGridCollectionViewLayout.framework; path = BSGridCollectionViewLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9495D3A7E4BCA6E1B4E7698F4EB2DBDC /* ZoomAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ZoomAnimator.swift; sourceTree = "<group>"; };
-		96C4E609592DFFB3D3C81147E283A3EE /* NSIndexSet+NSIndexPath.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "NSIndexSet+NSIndexPath.swift"; sourceTree = "<group>"; };
+		99B7F8474CAC536246A41CE342CCFE9D /* BSImagePicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BSImagePicker-umbrella.h"; sourceTree = "<group>"; };
 		9AF1B5F3B68D3396B21698263A37A9F7 /* BSGridCollectionViewLayout-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BSGridCollectionViewLayout-umbrella.h"; sourceTree = "<group>"; };
 		9C155A9C7D158400C45A01FD4E4D495D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9E6038886E5EF22C2C89709C8036DE27 /* BSImagePicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BSImagePicker-prefix.pch"; sourceTree = "<group>"; };
 		9EDF2BAEAA6D114412B8425FA7CA2D93 /* BSImagePicker.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = BSImagePicker.bundle; path = "BSImagePicker-BSImagePicker.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F8D1E1F9D6C30F9C9274611FB612004 /* Pods-Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Tests-umbrella.h"; sourceTree = "<group>"; };
 		A3645B916115366F0D849A407CAFE7AD /* Pods-Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Example-frameworks.sh"; sourceTree = "<group>"; };
-		A4DC4394901C96E06D8CB26981A4F52E /* CameraCollectionViewDataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CameraCollectionViewDataSource.swift; sourceTree = "<group>"; };
-		A70673EEAF63995FBACF415ACC26807A /* arrow_down@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "arrow_down@3x.png"; path = "Assets/arrow_down@3x.png"; sourceTree = "<group>"; };
-		A9292E732A2CC47AAC0139D46CBB284B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AC584FEAD3FB16A641D0DC0FE75945BA /* UIViewController+BSImagePicker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIViewController+BSImagePicker.swift"; sourceTree = "<group>"; };
 		B3569C82DEE8641DAE8FBE6F914CB651 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		B3FB04EB5A35E4D1633329B543F58F67 /* CameraCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CameraCell.swift; sourceTree = "<group>"; };
-		B454FCB81D894A01C667E370E5A17434 /* PhotoCollectionViewDataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewDataSource.swift; sourceTree = "<group>"; };
+		B76636A6055E7FDDC7AC552A128E51CE /* arrow_down@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "arrow_down@2x.png"; path = "Assets/arrow_down@2x.png"; sourceTree = "<group>"; };
+		B7F146764257500438B79A347682EE41 /* BSImagePicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BSImagePicker-prefix.pch"; sourceTree = "<group>"; };
 		B8CE1EF6E82C7D04390C68A0CD7F6101 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		B98EAD38D00AB7860CF6BA78340AAC74 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		BAEC599F5002F4B0B874AE3B6B3E2A2C /* BSImageView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BSImageView.modulemap; sourceTree = "<group>"; };
+		BB83B83E3DF33AD525253CDA947107A2 /* ZoomAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ZoomAnimator.swift; sourceTree = "<group>"; };
 		BBE690EC035237F7A26D285EEB00ACC3 /* BSGridCollectionViewLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BSGridCollectionViewLayout-dummy.m"; sourceTree = "<group>"; };
-		C6489896E3BDE6E2EF2360DCAEB907A5 /* SelectionView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SelectionView.swift; sourceTree = "<group>"; };
+		C3D871AAFD0326B986216C458C769933 /* Settings.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 		C6E147574EE5CFE13C9A691908B0178D /* Pods-Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		C8DB07133557224B7A03EA8F937C252D /* GridCollectionViewLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GridCollectionViewLayout.swift; path = Pod/Classes/GridCollectionViewLayout.swift; sourceTree = "<group>"; };
 		CD449F4480BA26AB72C889999AD55AD7 /* BSImageView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BSImageView-dummy.m"; sourceTree = "<group>"; };
+		CE13A1443B1EA0E3A4BDF512C51CA5C9 /* PhotoCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = PhotoCell.xib; path = Assets/PhotoCell.xib; sourceTree = "<group>"; };
 		CF494BE5150401343ACC8D32B6DE4B99 /* Pods-Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Example.modulemap"; sourceTree = "<group>"; };
 		D0426400E0ABE08E2345AF4890356D45 /* BSGridCollectionViewLayout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BSGridCollectionViewLayout.modulemap; sourceTree = "<group>"; };
-		DA803B9A4FB2103539D80EB253BB78D1 /* BSImagePickerViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BSImagePickerViewController.swift; sourceTree = "<group>"; };
+		D30CB1A8D167B920D3751C34E255B474 /* CameraCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = CameraCell.xib; path = Assets/CameraCell.xib; sourceTree = "<group>"; };
+		D53861F541A7787F9E9B4FCF8CC71003 /* PhotoCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
+		D8DDD3537F936F215AC10CDCC29F2FC0 /* PHAsset+Export.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "PHAsset+Export.swift"; sourceTree = "<group>"; };
 		E22EDD52E26A312A3A6CDA6B07FDF428 /* Pods-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example.debug.xcconfig"; sourceTree = "<group>"; };
 		E243D3BD725F8C61EB13DED59391450E /* Pods-Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Example-resources.sh"; sourceTree = "<group>"; };
 		E62DE18E155CAE4FCCE76786C7008F5F /* Pods-Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Tests.modulemap"; sourceTree = "<group>"; };
-		E66C727BDF1A0D2F1FC3C5BFCCE93B01 /* BSImagePicker.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = BSImagePicker.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E89075F9485EF664A630B7997F3AF86C /* NSIndexSet+NSIndexPath.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "NSIndexSet+NSIndexPath.swift"; sourceTree = "<group>"; };
 		E9B3C01FCE2DF5A94AC30621F80C0BD8 /* Pods_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Tests.framework; path = "Pods-Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC98D59EABBF589501DE3988AD017CD3 /* BSImageView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BSImageView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EE58419D638DFCDA5A36D7D6E34CE893 /* BSImagePicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BSImagePicker-dummy.m"; sourceTree = "<group>"; };
-		F0025F3E75527CFB77B0E5CEEA038522 /* BSImagePicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BSImagePicker-umbrella.h"; sourceTree = "<group>"; };
-		F2860DEB90F4FA009F720C434A987EC9 /* PreviewViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PreviewViewController.swift; sourceTree = "<group>"; };
+		EF6100D84E963F56F84E2114FA4EF831 /* Persistor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Persistor.swift; sourceTree = "<group>"; };
+		EFA7F8FAE08B9F7EC415B562F47A4ABF /* arrow_down@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "arrow_down@3x.png"; path = "Assets/arrow_down@3x.png"; sourceTree = "<group>"; };
+		F73F766C262EF362A5219A2AF8131FAA /* ResourceBundle-BSImagePicker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-BSImagePicker-Info.plist"; sourceTree = "<group>"; };
+		F923680751BB00FC9424FB72E34EA96C /* CameraCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CameraCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3DEF21354F03690B1AC3C35A2F95028C /* Frameworks */ = {
+		170A415D2061F7E98224F03D09DDE61B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A758B9A2BF6D0E4926BBC118C8155B8D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -231,22 +232,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A4669426DBC4B687F53EBECD1FB821F4 /* Frameworks */ = {
+		AD6976DD769B7E23764044A01FD535B6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E47DCD68F524CA5D6EF6D6E47DDC124F /* BSGridCollectionViewLayout.framework in Frameworks */,
-				461A67F7FA391093FCC6D89D39728AD0 /* BSImageView.framework in Frameworks */,
-				CD13111F81801015E5B8D49D1A9B7087 /* Foundation.framework in Frameworks */,
-				CC5B0CDDF0E38F612C727D00EBE3090D /* Photos.framework in Frameworks */,
-				6C29F312E503BD2AF65A5DB8F8847315 /* UIKit.framework in Frameworks */,
+				7C685171D28F58F1EABD19A725C05DA3 /* BSGridCollectionViewLayout.framework in Frameworks */,
+				C18A86121E6729225715AD38F67C7AA0 /* BSImageView.framework in Frameworks */,
+				DB24FAC30FC8328FC8A893B86021D629 /* Foundation.framework in Frameworks */,
+				8DF4353BC1CBA6295B4EBA8E64379452 /* Photos.framework in Frameworks */,
+				0BA8673EED17D65B47B776C91D403FA3 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A4C208CF94A139D7E02972CE22B68BAA /* Frameworks */ = {
+		B1B96E530E8C2F1C4BC290CF2E5F57DB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A89A488E96ACDB807C35B7C2C68EFC27 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +289,15 @@
 			path = "Target Support Files/Pods-Tests";
 			sourceTree = "<group>";
 		};
+		21C643A5B80A628EC6CE6B47757174CC /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				EF6100D84E963F56F84E2114FA4EF831 /* Persistor.swift */,
+			);
+			name = Helper;
+			path = Source/Helper;
+			sourceTree = "<group>";
+		};
 		43A748C2B5B1104F6E5C04E0F1E9E148 /* BSImageView */ = {
 			isa = PBXGroup;
 			children = (
@@ -298,32 +309,30 @@
 			path = BSImageView;
 			sourceTree = "<group>";
 		};
-		4C6BD1E4D087466513FE84B0E512A571 /* Support Files */ = {
+		46AD751584D4A2B40AB4BC1F351E8471 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				071EA6DC98E1C9B391B1EB16F5E8CE14 /* BSImagePicker.modulemap */,
-				4E98AA5CAA6B8AED639C7E8262F7FA03 /* BSImagePicker.xcconfig */,
-				EE58419D638DFCDA5A36D7D6E34CE893 /* BSImagePicker-dummy.m */,
-				9E6038886E5EF22C2C89709C8036DE27 /* BSImagePicker-prefix.pch */,
-				F0025F3E75527CFB77B0E5CEEA038522 /* BSImagePicker-umbrella.h */,
-				A9292E732A2CC47AAC0139D46CBB284B /* Info.plist */,
-				1695E33EDA4FD24C30CBFFC143760BA1 /* ResourceBundle-BSImagePicker-Info.plist */,
+				690A60571B9CD953DF9E9F289F55F4E7 /* add_photo.png */,
+				5A51F194623593803018633D25D64C90 /* add_photo@2x.png */,
+				556D1FE7BD40F7F808BC9217B48DB9DA /* add_photo@3x.png */,
+				2560D7812D1AE930E738A222C1DFFF10 /* Albums.storyboard */,
+				529F7DA7223D4C7BF0E3FE9F91EC7F1D /* arrow_down@1x.png */,
+				B76636A6055E7FDDC7AC552A128E51CE /* arrow_down@2x.png */,
+				EFA7F8FAE08B9F7EC415B562F47A4ABF /* arrow_down@3x.png */,
+				D30CB1A8D167B920D3751C34E255B474 /* CameraCell.xib */,
+				CE13A1443B1EA0E3A4BDF512C51CA5C9 /* PhotoCell.xib */,
 			);
-			name = "Support Files";
-			path = "Pods/Target Support Files/BSImagePicker";
+			name = Resources;
 			sourceTree = "<group>";
 		};
-		57B93BC31E92DD8F03A89CC69EBB031E /* View */ = {
+		4942E1CC8BBBFC7C3E566D2163B1E456 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				2E1F2D18D825557FAC4AB4FE5D064A5A /* AlbumCell.swift */,
-				2AE6689C5BA1DBBC61BB849C7B506FED /* AlbumTitleView.swift */,
-				B3FB04EB5A35E4D1633329B543F58F67 /* CameraCell.swift */,
-				7449221F5998F0E5F225D1DA21F9DAAD /* PhotoCell.swift */,
-				C6489896E3BDE6E2EF2360DCAEB907A5 /* SelectionView.swift */,
+				8C029AA225623FE6E7E0B36B968D091F /* BSImagePicker.podspec */,
+				03BEE62B89F91659E34FA56FBF443204 /* LICENSE */,
+				678388FA7FF2805D4D6F28AA1E7AA911 /* README.md */,
 			);
-			name = View;
-			path = Source/View;
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		5B690342878F702C92E4184128ADE597 /* Targets Support Files */ = {
@@ -333,16 +342,6 @@
 				1F3B68C7F30C31ED6AF824DC8FE3AAB6 /* Pods-Tests */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		6EFCFD3EA58097ED47FC182594B9FDC6 /* Extension */ = {
-			isa = PBXGroup;
-			children = (
-				96C4E609592DFFB3D3C81147E283A3EE /* NSIndexSet+NSIndexPath.swift */,
-				AC584FEAD3FB16A641D0DC0FE75945BA /* UIViewController+BSImagePicker.swift */,
-			);
-			name = Extension;
-			path = Source/Extension;
 			sourceTree = "<group>";
 		};
 		7CB0BF8F7F282508CD5A2F133FD0A98B /* Pods-Example */ = {
@@ -385,34 +384,30 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		8567FCA4DFB93D7FB71A2DA58DDBCAA6 /* Controller */ = {
+		930790425C5E163EEEFD41B49A7C111C /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				11477170B458C7688815CBE4D14741A0 /* AlbumsViewController.swift */,
-				DA803B9A4FB2103539D80EB253BB78D1 /* BSImagePickerViewController.swift */,
-				4A2B77EA5CBA9ED59702CFF4B4DD1F4B /* PhotosViewController.swift */,
-				F2860DEB90F4FA009F720C434A987EC9 /* PreviewViewController.swift */,
-				9495D3A7E4BCA6E1B4E7698F4EB2DBDC /* ZoomAnimator.swift */,
+				421765324577A2AC629F394EADDA5C54 /* AlbumTableViewDataSource.swift */,
+				6B436065B5EBBD0D6699B3CED49BE1F0 /* CameraCollectionViewDataSource.swift */,
+				3B5383D110F945795883F242D2C1C2CC /* ComposedCollectionViewDataSource.swift */,
+				30EA46B775C39848616E203499BA6C36 /* PhotoCollectionViewDataSource.swift */,
+				C3D871AAFD0326B986216C458C769933 /* Settings.swift */,
 			);
-			name = Controller;
-			path = Source/Controller;
+			name = Model;
+			path = Source/Model;
 			sourceTree = "<group>";
 		};
-		9216B3AE26D69DF3361806AEA2D221FE /* BSImagePicker */ = {
+		9340AB67E26A0F7DF0F68385A509AA0D /* View */ = {
 			isa = PBXGroup;
 			children = (
-				8567FCA4DFB93D7FB71A2DA58DDBCAA6 /* Controller */,
-				6EFCFD3EA58097ED47FC182594B9FDC6 /* Extension */,
-				DAA29873E41A2252CB4123F2CBB3F5B1 /* Helper */,
-				F1FCE8955110AE675138BE7D66DEC280 /* Model */,
-				D7A73183C5CDE3C40D5E7EF8893DB9F7 /* Pod */,
-				F9277083A469BD235095E4ACA5B6EA08 /* Protocol */,
-				D885C501D8AE974002C42C6F154B0705 /* Resources */,
-				4C6BD1E4D087466513FE84B0E512A571 /* Support Files */,
-				57B93BC31E92DD8F03A89CC69EBB031E /* View */,
+				8D526DA8340701010F97FF36CBEA4BD0 /* AlbumCell.swift */,
+				57297C979877CABF896049E9046F4B68 /* AlbumTitleView.swift */,
+				F923680751BB00FC9424FB72E34EA96C /* CameraCell.swift */,
+				D53861F541A7787F9E9B4FCF8CC71003 /* PhotoCell.swift */,
+				1E0B9280A734FB969B5A4AE5D00EDED4 /* SelectionView.swift */,
 			);
-			name = BSImagePicker;
-			path = ..;
+			name = View;
+			path = Source/View;
 			sourceTree = "<group>";
 		};
 		97663F08FF6B7242ED378CB24E953442 /* Pods */ = {
@@ -422,6 +417,39 @@
 				43A748C2B5B1104F6E5C04E0F1E9E148 /* BSImageView */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		97880DDA6BB10C27790ED8F5C1AAFB52 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				0C948948458A3C5817F06C8494CB6B69 /* BSImagePickerSettings.swift */,
+			);
+			name = Protocol;
+			path = Source/Protocol;
+			sourceTree = "<group>";
+		};
+		A7D78A9D24DC08F94740CF126FEC20C5 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				E89075F9485EF664A630B7997F3AF86C /* NSIndexSet+NSIndexPath.swift */,
+				D8DDD3537F936F215AC10CDCC29F2FC0 /* PHAsset+Export.swift */,
+				05B04A67186ABC5CFE6227BEAA76F09C /* UIViewController+BSImagePicker.swift */,
+			);
+			name = Extension;
+			path = Source/Extension;
+			sourceTree = "<group>";
+		};
+		B29B436C2CDDBD94573D5112A06A84F3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8D947B942FC01E92A122AD1966D5A40E /* AlbumsViewController.swift */,
+				63334C36DAB94FF15DEF3F1AD00AD57C /* BSImagePickerViewController.swift */,
+				57B11B7EBC2F65ECF08E658EBE002B55 /* PhotosViewController.swift */,
+				89C02B1F3A1AA176A1211C69710AB53E /* PreviewViewController.swift */,
+				BB83B83E3DF33AD525253CDA947107A2 /* ZoomAnimator.swift */,
+			);
+			name = Controller;
+			path = Source/Controller;
 			sourceTree = "<group>";
 		};
 		B74E5BAFC77C9D36C234ED7F48C87342 /* BSGridCollectionViewLayout */ = {
@@ -458,39 +486,21 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D7A73183C5CDE3C40D5E7EF8893DB9F7 /* Pod */ = {
+		BCF8464F5664D90CE5323E5E5EB80200 /* BSImagePicker */ = {
 			isa = PBXGroup;
 			children = (
-				E66C727BDF1A0D2F1FC3C5BFCCE93B01 /* BSImagePicker.podspec */,
-				B98EAD38D00AB7860CF6BA78340AAC74 /* LICENSE */,
-				2388E59F1F05E7AB19EEAF2359C8E5F3 /* README.md */,
+				B29B436C2CDDBD94573D5112A06A84F3 /* Controller */,
+				A7D78A9D24DC08F94740CF126FEC20C5 /* Extension */,
+				21C643A5B80A628EC6CE6B47757174CC /* Helper */,
+				930790425C5E163EEEFD41B49A7C111C /* Model */,
+				4942E1CC8BBBFC7C3E566D2163B1E456 /* Pod */,
+				97880DDA6BB10C27790ED8F5C1AAFB52 /* Protocol */,
+				46AD751584D4A2B40AB4BC1F351E8471 /* Resources */,
+				DF0B7424C4F74928963DB3CA99F20247 /* Support Files */,
+				9340AB67E26A0F7DF0F68385A509AA0D /* View */,
 			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		D885C501D8AE974002C42C6F154B0705 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				7C7622BC4427B3DCD1F0447DD8919B8F /* add_photo.png */,
-				0B61CB22FA51C5CB410C8B8C295BAD85 /* add_photo@2x.png */,
-				89B8646FEFFF6FD50EAFBC03E87B98DA /* add_photo@3x.png */,
-				469CB4CAA218BA86B934260E5246BD25 /* Albums.storyboard */,
-				60979EF4409F45D853FF203FB190F060 /* arrow_down@1x.png */,
-				7160DAD63FC8AE808505D2BB536201E4 /* arrow_down@2x.png */,
-				A70673EEAF63995FBACF415ACC26807A /* arrow_down@3x.png */,
-				74B961E0A85D5C6916BA0ED8CA17D760 /* CameraCell.xib */,
-				7830A0F934F7EA7011BBF952EDAC56CF /* PhotoCell.xib */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		DAA29873E41A2252CB4123F2CBB3F5B1 /* Helper */ = {
-			isa = PBXGroup;
-			children = (
-				7F845073EE839B263FC7CBA34B19446A /* Persistor.swift */,
-			);
-			name = Helper;
-			path = Source/Helper;
+			name = BSImagePicker;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		DC2F56C139AB42F54A362152738D995A /* Support Files */ = {
@@ -505,6 +515,21 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/BSImageView";
+			sourceTree = "<group>";
+		};
+		DF0B7424C4F74928963DB3CA99F20247 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				53096E4BC6B8D831C2F8CAECCD123049 /* BSImagePicker.modulemap */,
+				6F6D7CC359AEB2CF21162B86B05FC104 /* BSImagePicker.xcconfig */,
+				3C0E983F1297F4E66EA2723CCB03B2A1 /* BSImagePicker-dummy.m */,
+				B7F146764257500438B79A347682EE41 /* BSImagePicker-prefix.pch */,
+				99B7F8474CAC536246A41CE342CCFE9D /* BSImagePicker-umbrella.h */,
+				5CDBBCFF6A30F03E992C9FC3195284BE /* Info.plist */,
+				F73F766C262EF362A5219A2AF8131FAA /* ResourceBundle-BSImagePicker-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Pods/Target Support Files/BSImagePicker";
 			sourceTree = "<group>";
 		};
 		E505596CAD74A7D1BB175A2E7975692F /* Products */ = {
@@ -523,41 +548,27 @@
 		E93667193FBDD0569EC3A8DA2FC101BB /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				9216B3AE26D69DF3361806AEA2D221FE /* BSImagePicker */,
+				BCF8464F5664D90CE5323E5E5EB80200 /* BSImagePicker */,
 			);
 			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		F1FCE8955110AE675138BE7D66DEC280 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				2E2F16B23E60E231D0FED730882E2A8E /* AlbumTableViewDataSource.swift */,
-				A4DC4394901C96E06D8CB26981A4F52E /* CameraCollectionViewDataSource.swift */,
-				289CEF49F96BCFD363D13B94B75CFCF7 /* ComposedCollectionViewDataSource.swift */,
-				B454FCB81D894A01C667E370E5A17434 /* PhotoCollectionViewDataSource.swift */,
-				373E85E2B3D5C6563C69D25C156A5A04 /* Settings.swift */,
-			);
-			name = Model;
-			path = Source/Model;
-			sourceTree = "<group>";
-		};
-		F9277083A469BD235095E4ACA5B6EA08 /* Protocol */ = {
-			isa = PBXGroup;
-			children = (
-				5F11A9EF33555997FCE41DF2C43D061D /* BSImagePickerSettings.swift */,
-			);
-			name = Protocol;
-			path = Source/Protocol;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		209164385EDABC47A4B01734141CF525 /* Headers */ = {
+		5A0F5B18859B0AA33BF57940A1682EB7 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BD5C263C8973216C2F94F46E0D8C5CD1 /* BSImagePicker-umbrella.h in Headers */,
+				8F63F6925047522D7BC817B9965DA9C3 /* BSImageView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F8B0BCDCF85905289970428F56D6895 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3FA8B0B85E2E7205FC8EBA6E268039E /* BSImagePicker-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -566,14 +577,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				291AFED61B0AE909DCD6E24769CBD5E0 /* Pods-Example-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		98FF03E9A0D7BA396AAD6E57250E37E1 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CE9C4CC2D05315794CBCF03107898F8F /* BSImageView-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -596,52 +599,14 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		05AC1B8DA9FAF9373DEC8F8D0B64ADCE /* BSImagePicker */ = {
+		1026D4B2B71009BCBD75B01E90A5008A /* BSImageView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BF6820B56CB5ED7BCF27E589D1C0901C /* Build configuration list for PBXNativeTarget "BSImagePicker" */;
+			buildConfigurationList = 7E0541796ADDB8B5D29BC3AEE4F65312 /* Build configuration list for PBXNativeTarget "BSImageView" */;
 			buildPhases = (
-				209164385EDABC47A4B01734141CF525 /* Headers */,
-				293154CA3CDB7E77477108C44F9B9AEE /* Sources */,
-				A4669426DBC4B687F53EBECD1FB821F4 /* Frameworks */,
-				11187692554B3F31E8875D432F993B87 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				16811B1FF196CA7F8E38318B5C600476 /* PBXTargetDependency */,
-				0D51ADA6DDE419B11FEE3BA7A26CF06E /* PBXTargetDependency */,
-				111DFC4E7BA7164E5CB5C47E468E16C8 /* PBXTargetDependency */,
-			);
-			name = BSImagePicker;
-			productName = BSImagePicker;
-			productReference = 61E0CC29FF54C1B03B80DC8017E18E91 /* BSImagePicker.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		1992CA0FBAC08EF5934D3B34B15CFE6D /* BSImagePicker-BSImagePicker */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 473E68AE57608874DE71EEB56E365603 /* Build configuration list for PBXNativeTarget "BSImagePicker-BSImagePicker" */;
-			buildPhases = (
-				1A21B2721CB895DC5D461A368A9A0E25 /* Sources */,
-				A4C208CF94A139D7E02972CE22B68BAA /* Frameworks */,
-				3AFAE6561CAC2030D320B070AB38E0F7 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "BSImagePicker-BSImagePicker";
-			productName = "BSImagePicker-BSImagePicker";
-			productReference = 9EDF2BAEAA6D114412B8425FA7CA2D93 /* BSImagePicker.bundle */;
-			productType = "com.apple.product-type.bundle";
-		};
-		19DD550805381A42A08D6478BEDCEF01 /* BSImageView */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 8D11F075FB73C7E721E29D6071E508B4 /* Build configuration list for PBXNativeTarget "BSImageView" */;
-			buildPhases = (
-				98FF03E9A0D7BA396AAD6E57250E37E1 /* Headers */,
-				80F6C4FD9856E07C840A8DCCD76370C4 /* Sources */,
-				3DEF21354F03690B1AC3C35A2F95028C /* Frameworks */,
-				2E2E625CC90AFAD183581115D8C27FED /* Resources */,
+				5A0F5B18859B0AA33BF57940A1682EB7 /* Headers */,
+				F3BB729E3DB55B81A4F042ED6D6238DD /* Sources */,
+				B1B96E530E8C2F1C4BC290CF2E5F57DB /* Frameworks */,
+				0CA60749F97D189250580EEEC5201371 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -650,6 +615,27 @@
 			name = BSImageView;
 			productName = BSImageView;
 			productReference = 78CF28D2DFCBD94D6A1B5CC14A1DC29A /* BSImageView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		1E882644296092993DB1ACEFAF9302EE /* BSImagePicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D14E6A396B451C1916C0000ED92F7E1 /* Build configuration list for PBXNativeTarget "BSImagePicker" */;
+			buildPhases = (
+				5F8B0BCDCF85905289970428F56D6895 /* Headers */,
+				907DCDA9B1B451A149F3728E85555CA0 /* Sources */,
+				AD6976DD769B7E23764044A01FD535B6 /* Frameworks */,
+				18F3EF22E75C337F1AD46D9CCE871A05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				63AA41D6688D5F25E4305D0DF46A042A /* PBXTargetDependency */,
+				52091562AA5C36462DC020492F306976 /* PBXTargetDependency */,
+				7D9BDD55F410BD9B2E346A765076766B /* PBXTargetDependency */,
+			);
+			name = BSImagePicker;
+			productName = BSImagePicker;
+			productReference = 61E0CC29FF54C1B03B80DC8017E18E91 /* BSImagePicker.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		5F821992B04F30CE4384CBFDC55E76CC /* Pods-Example */ = {
@@ -712,6 +698,23 @@
 			productReference = 93CF439A0C77F741A904E962D966280D /* BSGridCollectionViewLayout.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		E99F27A7B6D3B3FBF7333F4549FF24BE /* BSImagePicker-BSImagePicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B080F3726883FBAF2C744EF1F8FF277B /* Build configuration list for PBXNativeTarget "BSImagePicker-BSImagePicker" */;
+			buildPhases = (
+				149AD3BDA58BB92BF4DF8AFD1F2E9235 /* Sources */,
+				170A415D2061F7E98224F03D09DDE61B /* Frameworks */,
+				241457EA1FCADDA3C0024BDAF509078D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BSImagePicker-BSImagePicker";
+			productName = "BSImagePicker-BSImagePicker";
+			productReference = 9EDF2BAEAA6D114412B8425FA7CA2D93 /* BSImagePicker.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -734,9 +737,9 @@
 			projectRoot = "";
 			targets = (
 				E2F02CE399CDEDE49DEAB03367684E0E /* BSGridCollectionViewLayout */,
-				05AC1B8DA9FAF9373DEC8F8D0B64ADCE /* BSImagePicker */,
-				1992CA0FBAC08EF5934D3B34B15CFE6D /* BSImagePicker-BSImagePicker */,
-				19DD550805381A42A08D6478BEDCEF01 /* BSImageView */,
+				1E882644296092993DB1ACEFAF9302EE /* BSImagePicker */,
+				E99F27A7B6D3B3FBF7333F4549FF24BE /* BSImagePicker-BSImagePicker */,
+				1026D4B2B71009BCBD75B01E90A5008A /* BSImageView */,
 				5F821992B04F30CE4384CBFDC55E76CC /* Pods-Example */,
 				E15BEACF39C9A61AFC719CFF2EE738C3 /* Pods-Tests */,
 			);
@@ -744,6 +747,13 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		0CA60749F97D189250580EEEC5201371 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		0D95A9252092E112BC55A3AE669F155F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -751,34 +761,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		11187692554B3F31E8875D432F993B87 /* Resources */ = {
+		18F3EF22E75C337F1AD46D9CCE871A05 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB0246650105DF2EE3E31D60DF717039 /* BSImagePicker.bundle in Resources */,
+				8A3F2889EC500ACFC186770CEC308BFC /* BSImagePicker.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2E2E625CC90AFAD183581115D8C27FED /* Resources */ = {
+		241457EA1FCADDA3C0024BDAF509078D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3AFAE6561CAC2030D320B070AB38E0F7 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				44984A650AA724E57ED28AE91AD50750 /* add_photo.png in Resources */,
-				EC21F55D0C72BB0199751AE7F5EF8621 /* add_photo@2x.png in Resources */,
-				D3D9EA752F34FFB01E64DADD7A8765FC /* add_photo@3x.png in Resources */,
-				BD37CA47A9490F3AA652BC4F3E3D89BD /* Albums.storyboard in Resources */,
-				E8C540D970803D1E7EE8F4BE8D46C160 /* arrow_down@1x.png in Resources */,
-				60042FB405E7489CF39881BC975669B6 /* arrow_down@2x.png in Resources */,
-				9EB6152AC81E31A83B694304EBAA5963 /* arrow_down@3x.png in Resources */,
-				3EF4ACED6FC851E868FD5646E6D2C6A1 /* CameraCell.xib in Resources */,
-				E857C2C987CFBA8CA669D357E420A55E /* PhotoCell.xib in Resources */,
+				A9C4A9A3EB88A4178FDA1B684622E589 /* add_photo.png in Resources */,
+				62781BDD083EFB6103B33E07E8FF603E /* add_photo@2x.png in Resources */,
+				63DC36E414CBB4E574BE99B241266FD9 /* add_photo@3x.png in Resources */,
+				A6FAB279EBC1444BB2A0ADC4B9AA47E2 /* Albums.storyboard in Resources */,
+				7C4EB6E796089D0C3DE2340CD3564763 /* arrow_down@1x.png in Resources */,
+				22E7628324078A1A84FABA137E2351BA /* arrow_down@2x.png in Resources */,
+				44CBFA90BAE269E9378F26108C009341 /* arrow_down@3x.png in Resources */,
+				A7E025389104B54CC9BDA31518DE73C2 /* CameraCell.xib in Resources */,
+				B88BED718CDBE6DD3357A50A6F531C05 /* PhotoCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -808,37 +811,10 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1A21B2721CB895DC5D461A368A9A0E25 /* Sources */ = {
+		149AD3BDA58BB92BF4DF8AFD1F2E9235 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		293154CA3CDB7E77477108C44F9B9AEE /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DE289D74764230C84FB78D8FFC2A83B0 /* AlbumCell.swift in Sources */,
-				B385F6BC5D8A4E78CEF54057399B0286 /* AlbumsViewController.swift in Sources */,
-				A96C9380A5FB7D7518A2FB0A5C543C03 /* AlbumTableViewDataSource.swift in Sources */,
-				0D6A6675CBA865F1F54D9BD3B881EC5A /* AlbumTitleView.swift in Sources */,
-				CF161CA0C1E124D549F5E58E1CAA1A50 /* BSImagePicker-dummy.m in Sources */,
-				99A1F0410BF4C12DCD5731C783FF5605 /* BSImagePickerSettings.swift in Sources */,
-				B3F85CFF86DB9314A409E2075FB17210 /* BSImagePickerViewController.swift in Sources */,
-				0D7883CD58E3E812ED2E28EF46886FEC /* CameraCell.swift in Sources */,
-				78C9257D7B2612A34D4BD908C5142995 /* CameraCollectionViewDataSource.swift in Sources */,
-				C4E0A4B48097BA8154040FAF287499C2 /* ComposedCollectionViewDataSource.swift in Sources */,
-				57457355F6C41C74EA2BDA5715F19D17 /* NSIndexSet+NSIndexPath.swift in Sources */,
-				9C652E0D5FC9ED6E903E2869FB2E4BA4 /* Persistor.swift in Sources */,
-				667F947403ECF36F6C858DA1C6F294B4 /* PhotoCell.swift in Sources */,
-				4A59C0299C673DEE3A38FC83EEE6C61A /* PhotoCollectionViewDataSource.swift in Sources */,
-				8335866CB0C6ACFF57F9FD29F17DC513 /* PhotosViewController.swift in Sources */,
-				D72C257EE8A5102AB743B58F382611F3 /* PreviewViewController.swift in Sources */,
-				752BAFC8A6654465F24D3BFAAB78B15E /* SelectionView.swift in Sources */,
-				7EB9090DEBAFC132CC1F4F3AF24D6C87 /* Settings.swift in Sources */,
-				02D34489413714E20B4ED48EB1417790 /* UIViewController+BSImagePicker.swift in Sources */,
-				EAB8636F263C3ADA881D3D04D0C27E37 /* ZoomAnimator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -858,13 +834,41 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		80F6C4FD9856E07C840A8DCCD76370C4 /* Sources */ = {
+		907DCDA9B1B451A149F3728E85555CA0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				25BB76E5FD3C90FFA35C605D6656EDAD /* BSImageView-dummy.m in Sources */,
-				45C5C1F2FEF53540EADB33C73B91B949 /* BSImageView.swift in Sources */,
-				E2BC9B745C9BD39C4CEC19CC8F7C3CEA /* ImageViewLayout.swift in Sources */,
+				A30A7F1C78FBB3A26C0EEE064092B139 /* AlbumCell.swift in Sources */,
+				44796ABB0A8001443E8E78AB00300146 /* AlbumsViewController.swift in Sources */,
+				665EC8662C4B194A73D9AA86AA52DE12 /* AlbumTableViewDataSource.swift in Sources */,
+				EF79C87640B39BEF7339AE5827EE0287 /* AlbumTitleView.swift in Sources */,
+				3DBCD8D3DC714AD03B87DFE44A6998C6 /* BSImagePicker-dummy.m in Sources */,
+				48B7C0EB150FF901321862AD93BC8B38 /* BSImagePickerSettings.swift in Sources */,
+				CFDB841026F46D1C0D07F936EB15DB9A /* BSImagePickerViewController.swift in Sources */,
+				7D89BD0B57EED7C149CE11FDFCD4C962 /* CameraCell.swift in Sources */,
+				1C2CE05B5B0F7A4F38C2FF43DC7340EC /* CameraCollectionViewDataSource.swift in Sources */,
+				5B57B79ABA62607AEF81CBAD6F258AC4 /* ComposedCollectionViewDataSource.swift in Sources */,
+				9DF9DCB043BEED54BC1F6244B622E512 /* NSIndexSet+NSIndexPath.swift in Sources */,
+				F1E308CB5CC925EA90068EC6AED02C9E /* Persistor.swift in Sources */,
+				43CF2034EAC91D91E57030CEA3A42F65 /* PHAsset+Export.swift in Sources */,
+				9E690F5C080DDE9B868C167C4ACBF46B /* PhotoCell.swift in Sources */,
+				E97D0B0E0ECDAA33D767CF96DFF898AA /* PhotoCollectionViewDataSource.swift in Sources */,
+				A0E711410C031BCD567D79EF50C3C6CB /* PhotosViewController.swift in Sources */,
+				C690004FA80DE36397A36165A154B0D9 /* PreviewViewController.swift in Sources */,
+				2C1ACB94D83757149FBD68A7785583F8 /* SelectionView.swift in Sources */,
+				CA90E76D65FFE32E35BB2C8BF685D881 /* Settings.swift in Sources */,
+				6D227DBD4B59F108128A8B2A67C4995C /* UIViewController+BSImagePicker.swift in Sources */,
+				7721ACF206F58874312EA9DC85FFF86E /* ZoomAnimator.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3BB729E3DB55B81A4F042ED6D6238DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B11B829EBD31323124FBB3F25F4BD544 /* BSImageView-dummy.m in Sources */,
+				11E2C76077C09AAD841CDCA899D8B43D /* BSImageView.swift in Sources */,
+				87CE744A21B2822C53228A35B1C626C5 /* ImageViewLayout.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -874,26 +878,8 @@
 		0175DA0C7C3E4711B7FF2B6DDF483C52 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = BSImagePicker;
-			target = 05AC1B8DA9FAF9373DEC8F8D0B64ADCE /* BSImagePicker */;
+			target = 1E882644296092993DB1ACEFAF9302EE /* BSImagePicker */;
 			targetProxy = 797BDB95163C92158067958C6D03A077 /* PBXContainerItemProxy */;
-		};
-		0D51ADA6DDE419B11FEE3BA7A26CF06E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "BSImagePicker-BSImagePicker";
-			target = 1992CA0FBAC08EF5934D3B34B15CFE6D /* BSImagePicker-BSImagePicker */;
-			targetProxy = 5BFC8A05F80E84CA407CD0C8B97851AF /* PBXContainerItemProxy */;
-		};
-		111DFC4E7BA7164E5CB5C47E468E16C8 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = BSImageView;
-			target = 19DD550805381A42A08D6478BEDCEF01 /* BSImageView */;
-			targetProxy = 2AB68B173E72DB353068C6FA0F5061F6 /* PBXContainerItemProxy */;
-		};
-		16811B1FF196CA7F8E38318B5C600476 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = BSGridCollectionViewLayout;
-			target = E2F02CE399CDEDE49DEAB03367684E0E /* BSGridCollectionViewLayout */;
-			targetProxy = 7DDC68F902499878598B0DBFB289AD1F /* PBXContainerItemProxy */;
 		};
 		210EBFD25D1659243FA7D5F1C8C67356 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -901,22 +887,40 @@
 			target = E2F02CE399CDEDE49DEAB03367684E0E /* BSGridCollectionViewLayout */;
 			targetProxy = E87070FD8D68672197D35BD71E0E0A82 /* PBXContainerItemProxy */;
 		};
+		52091562AA5C36462DC020492F306976 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "BSImagePicker-BSImagePicker";
+			target = E99F27A7B6D3B3FBF7333F4549FF24BE /* BSImagePicker-BSImagePicker */;
+			targetProxy = 991673ECF29D37A0914399BF1F50572B /* PBXContainerItemProxy */;
+		};
+		63AA41D6688D5F25E4305D0DF46A042A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BSGridCollectionViewLayout;
+			target = E2F02CE399CDEDE49DEAB03367684E0E /* BSGridCollectionViewLayout */;
+			targetProxy = D99AA32AE899E1ACD943ACFEC11E47E5 /* PBXContainerItemProxy */;
+		};
+		7D9BDD55F410BD9B2E346A765076766B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BSImageView;
+			target = 1026D4B2B71009BCBD75B01E90A5008A /* BSImageView */;
+			targetProxy = A7C7BE79D09C59BD04B9073C1DB036CE /* PBXContainerItemProxy */;
+		};
 		98B9EC2F1D3A9ED7AEAE9DE5AA88C893 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = BSImageView;
-			target = 19DD550805381A42A08D6478BEDCEF01 /* BSImageView */;
+			target = 1026D4B2B71009BCBD75B01E90A5008A /* BSImageView */;
 			targetProxy = 341177066EB969B6FE9BD7BC0AFCAE29 /* PBXContainerItemProxy */;
 		};
 		A3A8BFDD4265084D83378860D5F6B41B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = BSImagePicker;
-			target = 05AC1B8DA9FAF9373DEC8F8D0B64ADCE /* BSImagePicker */;
+			target = 1E882644296092993DB1ACEFAF9302EE /* BSImagePicker */;
 			targetProxy = 255F96D8A64CEB68B69BF170750339C4 /* PBXContainerItemProxy */;
 		};
 		E2DE5AB7649E238547121349751FBC3E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = BSImageView;
-			target = 19DD550805381A42A08D6478BEDCEF01 /* BSImageView */;
+			target = 1026D4B2B71009BCBD75B01E90A5008A /* BSImageView */;
 			targetProxy = 148D979054CCCE524CEAA059390D0E67 /* PBXContainerItemProxy */;
 		};
 		EE8682C0FE7B2A59F7B5760AB5E86438 /* PBXTargetDependency */ = {
@@ -928,9 +932,9 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0988824889847B3CA1945B6FC49D3F40 /* Release */ = {
+		15FFF822C13CDDA5A3B8772BA0D2BBBB /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4E98AA5CAA6B8AED639C7E8262F7FA03 /* BSImagePicker.xcconfig */;
+			baseConfigurationReference = 6F6D7CC359AEB2CF21162B86B05FC104 /* BSImagePicker.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -952,49 +956,13 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.1;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
-		};
-		0AAC2436EC0C434E295231A8EC06C20E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 445D2C21D098F2DC70B4A54AF71803CD /* BSImageView.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/BSImageView/BSImageView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/BSImageView/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/BSImageView/BSImageView.modulemap";
-				PRODUCT_MODULE_NAME = BSImageView;
-				PRODUCT_NAME = BSImageView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 4.1;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
+			name = Debug;
 		};
 		2EE24CFF022AB70154028C99F1E1C508 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1032,9 +1000,9 @@
 			};
 			name = Release;
 		};
-		43F6F1C365B2F9FE1F75B282256873E1 /* Debug */ = {
+		4109288977C5447BBAFF4C3DB8995C65 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4E98AA5CAA6B8AED639C7E8262F7FA03 /* BSImagePicker.xcconfig */;
+			baseConfigurationReference = 6F6D7CC359AEB2CF21162B86B05FC104 /* BSImagePicker.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/BSImagePicker";
@@ -1048,7 +1016,7 @@
 			};
 			name = Debug;
 		};
-		8E7E2F10EB2C0248D247C390E80408CB /* Debug */ = {
+		4A0379597A66EF4791D09124460D2EB5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 445D2C21D098F2DC70B4A54AF71803CD /* BSImageView.xcconfig */;
 			buildSettings = {
@@ -1072,13 +1040,31 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 4.1;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
+		};
+		68BFD341C9E77980ACF68FCC0DCA1076 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F6D7CC359AEB2CF21162B86B05FC104 /* BSImagePicker.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/BSImagePicker";
+				INFOPLIST_FILE = "Target Support Files/BSImagePicker/ResourceBundle-BSImagePicker-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = BSImagePicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
 		};
 		9021519BA0740775DA3F726FA45B8038 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1206,22 +1192,6 @@
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		9BBB8BDA5BBA27650DA68BD97F4E6235 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4E98AA5CAA6B8AED639C7E8262F7FA03 /* BSImagePicker.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/BSImagePicker";
-				INFOPLIST_FILE = "Target Support Files/BSImagePicker/ResourceBundle-BSImagePicker-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_NAME = BSImagePicker;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
 			};
 			name = Release;
 		};
@@ -1391,9 +1361,9 @@
 			};
 			name = Debug;
 		};
-		E476BE350B9E2588E176F6E256E86105 /* Debug */ = {
+		DED1B787C3DDAF5EB7C8170F6F010E9D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4E98AA5CAA6B8AED639C7E8262F7FA03 /* BSImagePicker.xcconfig */;
+			baseConfigurationReference = 6F6D7CC359AEB2CF21162B86B05FC104 /* BSImagePicker.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1412,6 +1382,40 @@
 				MODULEMAP_FILE = "Target Support Files/BSImagePicker/BSImagePicker.modulemap";
 				PRODUCT_MODULE_NAME = BSImagePicker;
 				PRODUCT_NAME = BSImagePicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F75ECE1DF1836CA1DA5F797D95D139A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 445D2C21D098F2DC70B4A54AF71803CD /* BSImageView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BSImageView/BSImageView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BSImageView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BSImageView/BSImageView.modulemap";
+				PRODUCT_MODULE_NAME = BSImageView;
+				PRODUCT_NAME = BSImageView;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -1444,20 +1448,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		473E68AE57608874DE71EEB56E365603 /* Build configuration list for PBXNativeTarget "BSImagePicker-BSImagePicker" */ = {
+		7E0541796ADDB8B5D29BC3AEE4F65312 /* Build configuration list for PBXNativeTarget "BSImageView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				43F6F1C365B2F9FE1F75B282256873E1 /* Debug */,
-				9BBB8BDA5BBA27650DA68BD97F4E6235 /* Release */,
+				F75ECE1DF1836CA1DA5F797D95D139A8 /* Debug */,
+				4A0379597A66EF4791D09124460D2EB5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8D11F075FB73C7E721E29D6071E508B4 /* Build configuration list for PBXNativeTarget "BSImageView" */ = {
+		9D14E6A396B451C1916C0000ED92F7E1 /* Build configuration list for PBXNativeTarget "BSImagePicker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8E7E2F10EB2C0248D247C390E80408CB /* Debug */,
-				0AAC2436EC0C434E295231A8EC06C20E /* Release */,
+				15FFF822C13CDDA5A3B8772BA0D2BBBB /* Debug */,
+				DED1B787C3DDAF5EB7C8170F6F010E9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B080F3726883FBAF2C744EF1F8FF277B /* Build configuration list for PBXNativeTarget "BSImagePicker-BSImagePicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4109288977C5447BBAFF4C3DB8995C65 /* Debug */,
+				68BFD341C9E77980ACF68FCC0DCA1076 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1467,15 +1480,6 @@
 			buildConfigurations = (
 				B628164E7A121E36F966FF1D80F6323D /* Debug */,
 				9021519BA0740775DA3F726FA45B8038 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		BF6820B56CB5ED7BCF27E589D1C0901C /* Build configuration list for PBXNativeTarget "BSImagePicker" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E476BE350B9E2588E176F6E256E86105 /* Debug */,
-				0988824889847B3CA1945B6FC49D3F40 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
