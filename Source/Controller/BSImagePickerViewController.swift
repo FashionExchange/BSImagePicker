@@ -135,7 +135,18 @@ open class BSImagePickerViewController : UINavigationController {
 
 // MARK: ImagePickerSettings proxy
 extension BSImagePickerViewController: BSImagePickerSettings {
-
+    
+    /**
+     See BSImagePicketSettings for documentation
+     */
+     @objc public var saveLastSelectedPosition: Bool {
+        get {
+            return settings.saveLastSelectedPosition
+        }
+        set {
+            settings.saveLastSelectedPosition = newValue
+        }
+    }
 
     /**
      See BSImagePicketSettings for documentation

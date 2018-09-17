@@ -45,6 +45,7 @@ class ViewController: UIViewController {
     @IBAction func showCustomImagePicker(_ sender: UIButton) {
         let vc = BSImagePickerViewController()
         vc.maxNumberOfSelections = 6
+        vc.saveLastSelectedPosition = true
         vc.takePhotoIcon = UIImage(named: "chat")
         
         vc.albumButton.tintColor = UIColor.green
