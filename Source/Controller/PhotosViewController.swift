@@ -147,7 +147,7 @@ final class PhotosViewController : UICollectionViewController {
         cameraDataSource.registerCellIdentifiersForCollectionView(collectionView)
     }
     
-    func getAlbum(from fetchResults: [PHFetchResult<PHAssetCollection>]) -> PHAssetCollection? {
+    private func getAlbum(from fetchResults: [PHFetchResult<PHAssetCollection>]) -> PHAssetCollection? {
         var lastSelectedAlbum = fetchResults.first?.firstObject
         if !settings.saveLastSelectedPosition {
             return lastSelectedAlbum
@@ -307,12 +307,11 @@ final class PhotosViewController : UICollectionViewController {
     }
     
     private func scroll(to assetID: String) {
+        guard let dataSourcesCount = self.composedDataSource?.dataSources.count, dataSourcesCount != 0 else { return }
         photosDataSource?.fetchResult.enumerateObjects { (asset, index, stop) in
-            if asset.localIdentifier == assetID {
-                // WARNING: Fix
-                self.collectionView?.scrollToItem(at: IndexPath(row: index, section: (self.composedDataSource?.dataSources.count)! - 1), at: UICollectionViewScrollPosition.top, animated: false)
-                stop.pointee = true
-            }
+            guard asset.localIdentifier == assetID else { return }
+            self.collectionView?.scrollToItem(at: IndexPath(row: index, section: dataSourcesCount - 1), at: UICollectionViewScrollPosition.top, animated: false)
+            stop.pointee = true
         }
     }
 }
