@@ -72,6 +72,11 @@ public protocol BSImagePickerSettings {
     var takePhotos: Bool { get set }
     
     /**
+     Save position of last selected photo and album and scroll to it.
+     */
+    var saveLastSelectedPosition: Bool { get set }
+    
+    /**
      Icon to show in take photo cell. 
      If you use a black image tint color will be applied to it.
     */

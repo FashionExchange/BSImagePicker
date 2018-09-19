@@ -63,6 +63,7 @@ final class PhotosViewController : UICollectionViewController {
     fileprivate var composedDataSource: ComposedCollectionViewDataSource?
     
     fileprivate var defaultSelections: PHFetchResult<PHAsset>?
+    fileprivate let persistor: Persistor
     
     let settings: BSImagePickerSettings
     
@@ -86,7 +87,7 @@ final class PhotosViewController : UICollectionViewController {
         cameraDataSource = CameraCollectionViewDataSource(settings: aSettings, cameraAvailable: UIImagePickerController.isSourceTypeAvailable(.camera))
         self.defaultSelections = defaultSelections
         settings = aSettings
-        
+        persistor = DataModelPersistor()
         super.init(collectionViewLayout: GridCollectionViewLayout())
         
         PHPhotoLibrary.shared().register(self)
@@ -119,12 +120,6 @@ final class PhotosViewController : UICollectionViewController {
         navigationItem.leftBarButtonItem = cancelBarButton
         navigationItem.rightBarButtonItem = doneBarButton
         navigationItem.titleView = albumTitleView
-
-        if let album = albumsDataSource.fetchResults.first?.firstObject {
-            initializePhotosDataSource(album, selections: defaultSelections)
-            updateAlbumTitle(album)
-            collectionView?.reloadData()
-        }
         
         // Add long press recognizer
         let longPressRecognizer = UILongPressGestureRecognizer(target: self, action: #selector(PhotosViewController.collectionViewLongPressed(_:)))
@@ -134,9 +129,43 @@ final class PhotosViewController : UICollectionViewController {
         // Set navigation controller delegate
         navigationController?.delegate = self
         
+        guard let album = getAlbum(from: albumsDataSource.fetchResults) else {
+            return
+        }
+        
+        initializePhotosDataSource(album, selections: defaultSelections)
+        updateAlbumTitle(album)
+        collectionView?.reloadData()
+        if settings.saveLastSelectedPosition {
+            if let lastPhotoSelectedID: String = persistor.model(by: .lastSelectedAssetID) {
+                scroll(to: lastPhotoSelectedID)
+            }
+        }
+        
         // Register cells
         photosDataSource?.registerCellIdentifiersForCollectionView(collectionView)
         cameraDataSource.registerCellIdentifiersForCollectionView(collectionView)
+    }
+    
+    private func getAlbum(from fetchResults: [PHFetchResult<PHAssetCollection>]) -> PHAssetCollection? {
+        var lastSelectedAlbum = fetchResults.first?.firstObject
+        if !settings.saveLastSelectedPosition {
+            return lastSelectedAlbum
+        }
+        guard let lastAlbumIdentifier: String = persistor.model(by: .lastSelectedAlbumID) else {
+            return lastSelectedAlbum
+        }
+        
+        fetchResults.forEach { (fetchResult) in
+            fetchResult.enumerateObjects({ (asset, index, stop) in
+                if asset.localIdentifier == lastAlbumIdentifier {
+                    lastSelectedAlbum = asset
+                    stop.pointee = true
+                }
+            })
+        }
+        
+        return lastSelectedAlbum
     }
     
     // MARK: Appear/Disappear
@@ -276,6 +305,15 @@ final class PhotosViewController : UICollectionViewController {
         collectionView?.dataSource = composedDataSource
         collectionView?.delegate = self
     }
+    
+    private func scroll(to assetID: String) {
+        guard let dataSourcesCount = self.composedDataSource?.dataSources.count, dataSourcesCount != 0 else { return }
+        photosDataSource?.fetchResult.enumerateObjects { (asset, index, stop) in
+            guard asset.localIdentifier == assetID else { return }
+            self.collectionView?.scrollToItem(at: IndexPath(row: index, section: dataSourcesCount - 1), at: UICollectionViewScrollPosition.top, animated: false)
+            stop.pointee = true
+        }
+    }
 }
 
 // MARK: UICollectionViewDelegate
@@ -324,7 +362,6 @@ extension PhotosViewController {
             UIView.setAnimationsEnabled(true)
 
             cell.photoSelected = false
-
             // Call deselection closure
             if let closure = deselectionClosure {
                 DispatchQueue.global().async {
@@ -334,7 +371,7 @@ extension PhotosViewController {
         } else if photosDataSource.selections.count < settings.maxNumberOfSelections { // Select
             // Select asset if not already selected
             photosDataSource.selections.append(asset)
-
+            persistor.save(asset.localIdentifier, by: .lastSelectedAssetID)
             // Set selection number
             if let selectionCharacter = settings.selectionCharacter {
                 cell.selectionString = String(selectionCharacter)
@@ -393,10 +430,10 @@ extension PhotosViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         // Update photos data source
         let album = albumsDataSource.fetchResults[indexPath.section][indexPath.row]
+        persistor.save(album.localIdentifier, by: .lastSelectedAlbumID)
         initializePhotosDataSource(album)
         updateAlbumTitle(album)
         collectionView?.reloadData()
-        
         // Dismiss album selection
         albumsViewController.dismiss(animated: true, completion: nil)
     }

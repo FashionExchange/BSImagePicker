@@ -45,6 +45,7 @@ class ViewController: UIViewController {
     @IBAction func showCustomImagePicker(_ sender: UIButton) {
         let vc = BSImagePickerViewController()
         vc.maxNumberOfSelections = 6
+        vc.saveLastSelectedPosition = true
         vc.takePhotoIcon = UIImage(named: "chat")
         
         vc.albumButton.tintColor = UIColor.green
@@ -77,6 +78,11 @@ class ViewController: UIViewController {
                 print("Cancel: \(assets)")
             }, finish: { (assets: [PHAsset]) -> Void in
                 print("Finish: \(assets)")
+                assets.forEach({ asset in
+                    asset.getImage(completion: { image in
+                        print("Image: \(image.debugDescription)")
+                    })
+                })
             }, completion: nil)
     }
   
