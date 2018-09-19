@@ -79,8 +79,8 @@ class ViewController: UIViewController {
             }, finish: { (assets: [PHAsset]) -> Void in
                 print("Finish: \(assets)")
                 assets.forEach({ asset in
-                    asset.getImage(callback: { image in
-                        
+                    asset.getImage(completion: { image in
+                        print("Image: \(image.debugDescription)")
                     })
                 })
             }, completion: nil)

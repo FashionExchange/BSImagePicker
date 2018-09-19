@@ -1,6 +1,5 @@
 //
 //  Persistor.swift
-//  BSGridCollectionViewLayout
 //
 //  Created by Eugen Spinu on 17/09/2018.
 //
