@@ -322,8 +322,12 @@ extension PhotosViewController {
         // NOTE: ALWAYS return false. We don't want the collectionView to be the source of thruth regarding selections
         // We can manage it ourself.
 
+        // Make sure we have a data source and that we can make selections
+        guard let photosDataSource = photosDataSource, collectionView.isUserInteractionEnabled else { return false }
+        
         // Camera shouldn't be selected, but pop the UIImagePickerController!
         if let composedDataSource = composedDataSource , composedDataSource.dataSources[indexPath.section].isEqual(cameraDataSource) {
+            if !canAppentItemWith(currentSellectionCount: photosDataSource.selections.count) { return false }
             let cameraController = UIImagePickerController()
             cameraController.allowsEditing = false
             cameraController.sourceType = .camera
@@ -333,9 +337,6 @@ extension PhotosViewController {
             
             return false
         }
-
-        // Make sure we have a data source and that we can make selections
-        guard let photosDataSource = photosDataSource, collectionView.isUserInteractionEnabled else { return false }
 
         // We need a cell
         guard let cell = collectionView.cellForItem(at: indexPath) as? PhotoCell else { return false }
@@ -368,7 +369,7 @@ extension PhotosViewController {
                     closure(asset)
                 }
             }
-        } else if photosDataSource.selections.count < settings.maxNumberOfSelections { // Select
+        } else if canAppentItemWith(currentSellectionCount: photosDataSource.selections.count) { // Select
             // Select asset if not already selected
             photosDataSource.selections.append(asset)
             persistor.save(asset.localIdentifier, by: .lastSelectedAssetID)
@@ -393,6 +394,10 @@ extension PhotosViewController {
         }
 
         return false
+    }
+    
+    private func canAppentItemWith(currentSellectionCount: Int) -> Bool {
+        return currentSellectionCount < settings.maxNumberOfSelections
     }
     
     override func collectionView(_ collectionView: UICollectionView, willDisplay cell: UICollectionViewCell, forItemAt indexPath: IndexPath) {
@@ -479,6 +484,7 @@ extension PhotosViewController: UIImagePickerControllerDelegate {
                 DispatchQueue.main.async {
                     // TODO: move to a function. this is duplicated in didSelect
                     self.photosDataSource?.selections.append(asset)
+                    self.persistor.save(asset.localIdentifier, by: .lastSelectedAssetID)
                     self.updateDoneButton()
                     
                     // Call selection closure

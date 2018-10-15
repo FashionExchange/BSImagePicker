@@ -47,6 +47,7 @@ class ViewController: UIViewController {
         vc.maxNumberOfSelections = 6
         vc.saveLastSelectedPosition = true
         vc.takePhotoIcon = UIImage(named: "chat")
+        vc.takePhotos = true
         
         vc.albumButton.tintColor = UIColor.green
         vc.cancelButton.tintColor = UIColor.red
