@@ -23,7 +23,7 @@ extension PHAsset {
             unwrappedSize = CGSize(width: self.pixelWidth, height: self.pixelHeight)
         }
         PHImageManager.default().requestImage(for: self, targetSize: unwrappedSize, contentMode: PHImageContentMode.default, options: requestOptions, resultHandler: { (image, info) in
-            guard let unwrappedImage = image, unwrappedImage.size == unwrappedSize else {
+            guard let unwrappedImage = image else {
                 completion(nil)
                 return
             }
