@@ -310,7 +310,7 @@ final class PhotosViewController : UICollectionViewController {
         guard let dataSourcesCount = self.composedDataSource?.dataSources.count, dataSourcesCount != 0 else { return }
         photosDataSource?.fetchResult.enumerateObjects { (asset, index, stop) in
             guard asset.localIdentifier == assetID else { return }
-            self.collectionView?.scrollToItem(at: IndexPath(row: index, section: dataSourcesCount - 1), at: UICollectionViewScrollPosition.top, animated: false)
+            self.collectionView?.scrollToItem(at: IndexPath(row: index, section: dataSourcesCount - 1), at: UICollectionView.ScrollPosition.top, animated: false)
             stop.pointee = true
         }
     }
@@ -421,7 +421,7 @@ extension PhotosViewController: UIPopoverPresentationControllerDelegate {
 }
 // MARK: UINavigationControllerDelegate
 extension PhotosViewController: UINavigationControllerDelegate {
-    func navigationController(_ navigationController: UINavigationController, animationControllerFor operation: UINavigationControllerOperation, from fromVC: UIViewController, to toVC: UIViewController) -> UIViewControllerAnimatedTransitioning? {
+    func navigationController(_ navigationController: UINavigationController, animationControllerFor operation: UINavigationController.Operation, from fromVC: UIViewController, to toVC: UIViewController) -> UIViewControllerAnimatedTransitioning? {
         if operation == .push {
             return expandAnimator
         } else {
@@ -465,8 +465,9 @@ extension PhotosViewController {
 
 // MARK: UIImagePickerControllerDelegate
 extension PhotosViewController: UIImagePickerControllerDelegate {
-    func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : Any]) {
-        guard let image = info[UIImagePickerControllerOriginalImage] as? UIImage else {
+    func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
+
+        guard let image = info[.originalImage] as? UIImage else {
             picker.dismiss(animated: true, completion: nil)
             return
         }
