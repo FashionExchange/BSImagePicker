@@ -82,7 +82,7 @@ final class PhotoCollectionViewDataSource : NSObject, UICollectionViewDataSource
         })
         
         // Set selection number
-        if let index = selections.index(of: asset) {
+        if let index = selections.firstIndex(of: asset) {
             if let character = settings?.selectionCharacter {
                 cell.selectionString = String(character)
             } else {

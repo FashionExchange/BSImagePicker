@@ -79,10 +79,16 @@ class ViewController: UIViewController {
                 print("Cancel: \(assets)")
             }, finish: { (assets: [PHAsset]) -> Void in
                 print("Finish: \(assets)")
-                assets.forEach({ asset in
-                    asset.getImage(completion: { image in
-                        print("Image: \(image.debugDescription)")
-                    })
+                let holder = assets
+                holder.forEach({ asset in
+                        asset.getImage(completion: { result in
+                            switch result {
+                            case .success(let image):
+                                print("Image: \(image.debugDescription)")
+                            case .failure(let error):
+                                print("error: \(error.localizedDescription)")
+                            }
+                        })                        
                 })
             }, completion: nil)
     }

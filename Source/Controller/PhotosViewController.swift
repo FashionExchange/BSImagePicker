@@ -343,7 +343,7 @@ extension PhotosViewController {
         let asset = photosDataSource.fetchResult.object(at: indexPath.row)
 
         // Select or deselect?
-        if let index = photosDataSource.selections.index(of: asset) { // Deselect
+        if let index = photosDataSource.selections.firstIndex(of: asset) { // Deselect
             // Deselect asset
             photosDataSource.selections.remove(at: index)
 
